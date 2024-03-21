@@ -1,0 +1,23 @@
+/* this is the styles page for the index.html
+    - create a class for odd numbered statements
+    - create two ids for the even numbered statements
+
+*/ 
+
+#number2 {
+    color: #6666ff;
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: rgb(107, 255, 107);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* The following code is the code for the "p" elements */
+p {
+    background-color: rgb(255, 133, 182);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+
+}

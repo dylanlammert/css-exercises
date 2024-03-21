@@ -1,0 +1,9 @@
+/* This code is for the styles of the div class */
+
+.alert-text { 
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}

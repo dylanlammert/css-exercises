@@ -1,0 +1,25 @@
+/* This is the style sheet for index.html
+
+    - the first element needs a black bacground, 
+    color: white, and a font weight bold
+    - The second element background color yellow
+    - Both elements, font sixe 28px; list of fonts Helvetica, Times New Roman
+    sans-serif; 
+
+*/
+
+.hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.initialState {
+    background-color: yellow;
+}
+
+.hover,
+.initialState {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}

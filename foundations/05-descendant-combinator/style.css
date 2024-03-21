@@ -1,0 +1,11 @@
+/* 
+    - Create a style for the container div element
+    - leave the div element without the class= " container " normal
+*/
+
+.container { 
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
