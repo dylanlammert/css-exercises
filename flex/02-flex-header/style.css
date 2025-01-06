@@ -1,11 +1,18 @@
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: tomato;
   background: white;
   padding: 4px 32px;
@@ -13,13 +20,19 @@
 
 ul {
   /* this removes the dots on the list items*/
+  padding: 0px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
 }
 
 a {
   font-size: 22px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background: white;
-  padding: 8px;
+  margin: 2px 4px;
+  padding: 4px;
   /* this removes the line under the links */
   text-decoration: none;
 }
